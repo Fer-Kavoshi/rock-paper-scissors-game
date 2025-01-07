@@ -29,17 +29,21 @@ Follow these steps to run the game on your local machine:
 - Install the `colorama` library using pip: 
  ```bash
  pip install colorama
----
+ ```
 ## Steps:
 ### 1.Clone this repository
+```bash
 git clone https://github.com/Fer-Kavoshi/rock-paper-scissors-game.git
+```
 ### 2.Run the script:
+```bash
 python main.py
+```
 ---
 ## Game Rules
-- Rock can break Scissors -> Rock wins.
-- Scissors can cut Paper -> Scissors wins.
-- Paper can cover Rock -> Paper wins.
+1. Rock can break Scissors -> Rock wins.
+2. Scissors can cut Paper -> Scissors wins.
+3. Paper can cover Rock -> Paper wins.
 ### Inputs:
 - Use R for Rock
 - Use P for Paper
@@ -56,5 +60,6 @@ This project is licensed under the MIT License. See LICENSE file for details.
 ## Acknowledgements
 - Inspired by the classic Rock-Paper-Scissors game.
 - Special thanks to the python community for resources and inspiration.
+
 
 
